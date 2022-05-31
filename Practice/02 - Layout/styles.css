@@ -1,0 +1,30 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+div {
+  min-width: 50px;
+  min-height: 50px;
+}
+
+div.green {
+  background-color: green;
+}
+
+div.yellow {
+  background-color: yellow;
+  padding: 20px;
+  border: solid yellowgreen 5px;
+}
+
+div.blue {
+  background-color: blue;
+}
+
+div.red {
+  background-color: red;
+}
+
+div.container {
+  width: 50%;
+}
