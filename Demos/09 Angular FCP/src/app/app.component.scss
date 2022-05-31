@@ -1,0 +1,13 @@
+.mat-list-item-content {
+  background-color: green;
+}
+
+.my-backdrop {
+  backdrop-filter: blur(2px);
+}
+
+.my-panel {
+  .mat-dialog-container {
+    background-color: silver;
+  }
+}
