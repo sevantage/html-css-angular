@@ -1,0 +1,13 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+div {
+    min-width: 50px;
+    min-height: 50px;
+    margin: 5px;
+}
+
+div.change-yellow-div-to-black > div#yellow {
+    background-color: yellow;
+}

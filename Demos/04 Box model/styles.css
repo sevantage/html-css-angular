@@ -1,0 +1,54 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+div.sizing {
+    background-color: lightblue;
+}
+
+div.sizing > div {
+    background-color: silver;
+    margin: 5px;
+    border: 5px solid black;
+    padding: 5px;
+    width: 50px;
+    height: 50px;
+}
+
+div.sizing > div.account-for-border-and-padding {
+    width: calc(50px - 20px);
+    height: calc(50px - 20px);
+}
+
+div.sizing > div.border-box {
+    box-sizing: border-box;
+}
+
+div.container {
+    width: 200px;
+    height: 100px;
+    background-color: lightblue;
+    overflow: visible;
+}
+
+.no-collapse {
+    padding: 0.05px;
+}
+
+div.item {
+    margin: 10px;
+    padding: 10px;
+    width: 100%;
+    height: 30%;
+    background-color: silver;
+}
+
+div.account-for-margin {
+    width: calc(100% - 20px);
+    height: calc(30% - 20px);
+}
+
+div.account-for-margin-and-padding {
+    width: calc(100% - 40px);
+    height: calc(30% - 40px);
+}

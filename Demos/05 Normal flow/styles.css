@@ -1,0 +1,16 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+span.special {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+div.inline {
+    display: inline;
+}
+
+span.block {
+    display: block;
+}

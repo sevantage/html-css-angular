@@ -1,0 +1,14 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+div.fixed {
+    position: fixed;
+    background-color: red;
+}
+
+div.sticky {
+    position: sticky;
+    top: 8px;
+    background-color: green;
+}

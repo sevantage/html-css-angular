@@ -1,0 +1,22 @@
+div {
+    width: 100px;
+    height: 100px;
+    background-color: silver;
+    margin: 5px;
+}
+
+div#div1 {
+    background-color: red;
+}
+
+#div1 {
+    background-color: green;
+}
+
+div.yellow {
+    background-color: yellow;
+}
+
+div:nth-child(2n+1) {
+    background-color: blue;
+}

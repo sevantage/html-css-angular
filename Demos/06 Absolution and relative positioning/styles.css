@@ -1,0 +1,40 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+div.container > div {
+    width: 100px;
+    height: 100px;
+}
+
+div.container > div.blue {
+    background-color: blue;
+} 
+
+div.container > div.yellow {
+    background-color: yellow;
+    position: relative;
+    top: 10px;
+    left: 10px;
+} 
+
+div.container > div.green {
+    background-color: green;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+} 
+
+div.container > div.red {
+    background-color: red;
+    position: relative;
+} 
+
+div.container > div.red > div {
+    width: 10px;
+    height: 10px;
+    background-color: silver;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+} 
