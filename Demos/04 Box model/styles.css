@@ -16,8 +16,8 @@ div.sizing > div {
 }
 
 div.sizing > div.account-for-border-and-padding {
-    width: calc(50px - 20px);
-    height: calc(50px - 20px);
+    width: 30px;
+    height: 30px;
 }
 
 div.sizing > div.border-box {
