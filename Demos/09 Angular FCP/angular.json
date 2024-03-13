@@ -73,10 +73,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "09-Angular-FCP:build:production"
+              "buildTarget": "09-Angular-FCP:build:production"
             },
             "development": {
-              "browserTarget": "09-Angular-FCP:build:development"
+              "buildTarget": "09-Angular-FCP:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -84,7 +84,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "09-Angular-FCP:build"
+            "buildTarget": "09-Angular-FCP:build"
           }
         },
         "test": {
@@ -108,6 +108,5 @@
         }
       }
     }
-  },
-  "defaultProject": "09-Angular-FCP"
+  }
 }
