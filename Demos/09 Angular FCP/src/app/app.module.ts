@@ -1,4 +1,4 @@
-import { APP_INITIALIZER, NgModule } from '@angular/core';
+import { NgModule, provideAppInitializer } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -29,11 +29,10 @@ function initializeApp(): Promise<any> {
     MatButtonModule,
     MatDialogModule,
   ],
-  providers: [{
-    provide: APP_INITIALIZER,
-    useFactory: () => initializeApp,
-    multi: true
-   }],
+  providers: [provideAppInitializer(() => {
+        const initializerFn = (() => initializeApp)();
+        return initializerFn();
+      })],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
