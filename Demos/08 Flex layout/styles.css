@@ -8,6 +8,8 @@ div.container {
     flex-direction: row;
     flex-wrap: wrap;
     overflow: hidden;
+    border: dotted 1px silver;
+    gap: 10px;
 }
 
 div.item {
@@ -17,6 +19,16 @@ div.item {
     background-color: silver;
     flex: 0 0 100px;
     text-align: center;
+}
+
+@media screen and (max-width:900px) {
+    div.container {
+        width: 300px;
+    }
+    
+    div.item {
+        width: calc(100% - 4px);
+    }
 }
 
 @media screen and (max-width:600px) {
