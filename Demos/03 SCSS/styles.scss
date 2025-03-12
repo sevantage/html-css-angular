@@ -1,7 +1,9 @@
+$bg-color: silver;
+
 div {
     width: 100px;
     height: 100px;
-    background-color: silver;
+    background-color: $bg-color;
     margin: 5px;
     
     &#div1 {
